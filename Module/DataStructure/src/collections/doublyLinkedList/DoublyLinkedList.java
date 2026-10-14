@@ -153,7 +153,6 @@ public class DoublyLinkedList implements List {
 	    while (current != null) {
 	        if (current.data == element) {
 	            Node nextNode = current.next;
-
 	            if (current == head) {
 	                head = current.next;
 	                if (head != null) {
