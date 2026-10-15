@@ -6,9 +6,9 @@ public class BinaryTree {
 
 	//nodes 
 	public class BT {
-		int data;
-		BT leftChild;
-		BT rightChild;
+		public int data;
+		public BT leftChild;
+		public BT rightChild;
 
 		public BT(int element) {
 			data = element;
@@ -122,5 +122,14 @@ public class BinaryTree {
 		return CountNodesWithValue(root.leftChild,value)+CountNodesWithValue(root.rightChild,value);
 	
 	}
+	
+	//height of tree
+	
+//	public int heightofTree(BT root) {
+//		
+//		if(root == null) return 0;
+//		
+//		
+//	}
 
 	}
